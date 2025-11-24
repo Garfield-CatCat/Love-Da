@@ -4,54 +4,91 @@
   <meta charset="UTF-8">
   <meta name="google-site-verification" content="0jKcGs6AFcLP7ZRfHxRQbHOjjlUzk15gqD2OJJZeb7s" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+ 
   <title>Love Da Records 職場體驗 | 免費沉浸式君主制職場 - 現代紫禁城</title>
-  <!-- 瀏覽器標籤列小圖標 -->
+  
+  <!-- 瀏覽器圖標（已修正路徑） -->
   <link rel="icon" href="./logo.png" type="image/png">
   <link rel="apple-touch-icon" href="./logo.png">
+  
   <meta name="description" content="Love Da Records 位於香港土瓜灣，提供完全免費的沉浸式君主制職場體驗。走進 Love Da Records，瞬間穿越到現代職場版紫禁城，體驗皇恩浩蕩、精神 PUA、科舉倒退的真實日常！">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Love Da Records",
-  "alternateName": "Love Da Records 職場體驗",
-  "url": "https://garfield-catcat.github.io/Love-Da/",
-  "description": "Love Da Records 位於香港土瓜灣，提供免費沉浸式君主制職場體驗，號稱現代職場版紫禁城。",
-  "logo": "https://garfield-catcat.github.io/Love-Da/logo.png",
-  "image": "https://garfield-catcat.github.io/Love-Da/logo.png",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Room A, 4/F, 紅棉工業大廈, 373 馬頭角道",
-    "addressLocality": "土瓜灣, 九龍",
-    "addressRegion": "HK",
-    "addressCountry": "HK"
-  },
-  "sameAs": [
-    "https://www.instagram.com/lovedarecords_zh/"
-  ],
-  "keywords": "Love Da Records, Love Da, love da, love da records, love da 土瓜灣, love da 職場, love da 皇上, 土瓜灣 love da, 愛達, love da 紫禁城"
-}
-</script>
-  
+  <!-- 結構化資料（已加入 logo） -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Love Da Records",
+    "alternateName": "Love Da Records 職場體驗",
+    "url": "https://garfield-catcat.github.io/Love-Da/",
+    "logo": "https://garfield-catcat.github.io/Love-Da/logo.png",
+    "image": "https://garfield-catcat.github.io/Love-Da/logo.png",
+    "description": "Love Da Records 位於香港土瓜灣，提供免費沉浸式君主制職場體驗，號稱現代職場版紫禁城。",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Room A, 4/F, 紅棉工業大廈, 373 馬頭角道",
+      "addressLocality": "土瓜灣, 九龍",
+      "addressRegion": "HK",
+      "addressCountry": "HK"
+    },
+    "sameAs": ["https://www.instagram.com/lovedarecords_zh/"],
+    "keywords": "Love Da Records, Love Da, love da, love da records, love da 土瓜灣, love da 職場, love da 皇上, 土瓜灣 love da, 愛達, love da 紫禁城"
+  }
+  </script>
+
   <style>
-    body {font-family: "Microsoft JhengHei", sans-serif;background: #f9f6f1;color: #333;margin: 0;padding: 0;}
-    header {background: #8b0000;color: #fff;text-align: center;padding: 2.5rem 1rem;}
-    header h1 {margin: 0;font-size: 2.5rem;}
-    header p {margin: 0.8rem 0 0;font-size: 1.3rem;}
-    section {max-width: 800px;margin: 2rem auto;padding: 2rem;background: #fff;border-radius: 10px;box-shadow: 0 4px 15px rgba(0,0,0,0.1);}
-    h2 {color: #8b0000;margin-top: 2rem;border-bottom: 2px solid #8b0000;padding-bottom: 0.3rem;}
-    ul {list-style: "✨ ";padding-left: 1.5rem;line-height: 1.8;}
-    .highlight {color: #8b0000;font-weight: bold;}
-    footer {text-align: center;background: #eee;padding: 1.5rem;margin-top: 3rem;font-size: 0.95rem;color: #555;}
-    footer a {color: #8b0000;text-decoration: none;font-weight: bold;}
+    body {
+      font-family: "Microsoft JhengHei", sans-serif;
+      background: #1a0f0d url('city.jpg') center center fixed;
+      background-size: cover;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+    }
+
+    header, section, footer {
+      background: rgba(0, 0, 0, 0.78);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+
+    header {
+      background: rgba(139, 0, 0, 0.9);   /* 深紅半透明 */
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    header h1 {margin: 0; font-size: 2.8rem;}
+    header p {margin: 1rem 0 0; font-size: 1.4rem;}
+
+    section {
+      max-width: 860px;
+      margin: 3rem auto;
+      padding: 2.5rem;
+      border-radius: 15px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.6);
+    }
+    h2 {
+      color: #ffd700;
+      border-bottom: 2px solid #ffd700;
+      padding-bottom: 0.4rem;
+      margin-top: 2.5rem;
+    }
+    ul {list-style: "✨ "; padding-left: 1.5rem; line-height: 2;}
+
+    .highlight {color: #ffd700; font-weight: bold;}
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      margin-top: 4rem;
+      font-size: 1rem;
+    }
+    footer a {color: #ffd700; text-decoration: none; font-weight: bold;}
   </style>
 </head>
 <body>
-
   <header>
-    <!-- H1 加強關鍵字 -->
     <h1>Love Da Records</h1>
     <p>免費沉浸式君主制職場體驗 · 現代職場版紫禁城</p>
   </header>
@@ -102,7 +139,3 @@
   </footer>
 </body>
 </html>
-
-
-
-
